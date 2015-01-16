@@ -1,0 +1,18 @@
+Resources
+
+How to add a background image to CSS:
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+
+Color scheme designer based off of one hex code:
+http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+JSON checker:
+http://jsonlint.com/
+
+Ideas for making it more graphically interesting:
+http://www.postplanner.com/these-graphic-design-hacks-skills-make-you-pro-designer-overnight/
+
+General help on:
+- CSS:  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+- JQuery:  http://jquery.com/
+- JavaScript:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
