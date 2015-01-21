@@ -382,7 +382,8 @@
     "buttons.less",
     "navs.less",
     "navbar.less",
-    "thumbnails.less"
+    "thumbnails.less",
+    "panels.less"
   ],
   "js": [
     "alert.js",
@@ -398,5 +399,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=31393c4efd944463715f"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=db361e0f2379cc8abcad"
 }

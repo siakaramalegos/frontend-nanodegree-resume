@@ -14,6 +14,11 @@ h3 {
   font-weight: 700;
 }
 
+.col-md-12 {
+  padding: 0px;
+  margin-top: 20px;
+}
+
 .row2 {
   padding-top: 10px;
 }
@@ -26,9 +31,30 @@ h3 {
   padding: 0px;
 }
 
+.projImage {
+  padding: 10px;
+}
+
+.nav-tabs > li > a {
+  font-size: 30px;
+  border: 1px solid #dddddd;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #3e74b8;
+  background-color: #FDFBF1;
+}
+
+.tab-content > .active {
+  background-color: #FDFBF1;
+  padding: 10px;
+}
+
 .education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .date-text {
@@ -57,17 +83,18 @@ p {
 a {
   color: #1199C3;
   text-decoration: none;
-  margin-top: 10px;
   display: block;
 }
 
 .welcome-message {
-  font-size: 16px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
   color: #FFFFFF;
-  line-height: 26px;
+  line-height: 30px;
 }
 
-/* TODO: Replace with image later */
+/* Done: Replace with image */
 #headrow {
   background-image: url("../images/header.png");
   height: 293px;
@@ -92,24 +119,16 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 5px;
+}
+
+.flex-item {
+  font-size: 16px;
 }
 
 ul {
   list-style-type: none;
-}
-
-/* Bar chart stuff */
-.chart div {
-  font: 10px sans-serif;
-  background-color: #4A4A4A;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  height: 12px;
-  color: white;
-  display: inline-block;
 }
 
 #letsConnect {
