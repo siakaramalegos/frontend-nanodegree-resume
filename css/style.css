@@ -1,0 +1,180 @@
+body {
+  font-family: 'News Cycle', sans-serif;
+  background-color: #d4d0be;
+  color: #3e74b8;
+}
+
+h3 {
+  color: #0E4488;
+  font-weight: 700;
+}
+
+#name {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.col-md-12 {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.row2 {
+  padding-top: 10px;
+}
+
+.row2head {
+  margin-top: 0px;
+}
+
+#biopic {
+  padding: 0px;
+}
+
+.projImage {
+  padding: 10px;
+}
+
+.nav-tabs > li > a {
+  font-size: 30px;
+  border: 1px solid #dddddd;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #3e74b8;
+  background-color: #FDFBF1;
+}
+
+.tab-content > .active {
+  background-color: #FDFBF1;
+  padding: 10px;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199C3;
+  text-decoration: none;
+  display: block;
+}
+
+.welcome-message {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+
+/* Done: Replace with image */
+#headrow {
+  background-image: url("../images/header.png");
+  height: 293px;
+}
+
+.transbox {
+  margin-top: 40px;
+  padding: 30px;
+  height: 200px;
+  background-color: #FDFBF1;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.flex-item {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  .biopic {
+    display: block;
+  }
+}
